@@ -7,6 +7,6 @@ load_dotenv()
 
 class BotSettings:
     TOKEN: str = "8620064890:AAFz62P0EUX1vCV4Wd7uSk1y_q2gRf1VF6g"
-
+    PAYMENT_TOKEN: str = "1744374395:TEST:d2a91f796d7659a4e1c3"
 
 bot_settings = BotSettings()
