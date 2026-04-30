@@ -11,7 +11,6 @@ class BotSettings:
 
 bot_settings = BotSettings()
 
-# bot > аддрес > координаты > api погоды > json (["fact"]["temp"]) > bot
 
 class MapConfig:
     WEATHER_API_KEY = "52103fc8-df14-42d5-be09-40c5aface46b"
