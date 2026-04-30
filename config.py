@@ -25,3 +25,6 @@ map_config = MapConfig()
 
 def goodbay():
     print("GOODBAY")
+    
+def hello_world():
+    print("HELLO")
