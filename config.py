@@ -21,3 +21,7 @@ class MapConfig:
     geocode_url = f"https://geocode-maps.yandex.ru/1.x/?apikey={GEOCODE_API_KEY}"
 
 map_config = MapConfig()
+
+
+def goodbay():
+    print("GOODBAY")
