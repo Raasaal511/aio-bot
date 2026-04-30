@@ -31,9 +31,9 @@ async def profile_links(message: Message):
     builder.row(
         InlineKeyboardButton(
             text="Ссылка на Youtube!",
-            url="https://www.youtube.com/@rasulyusupov8599"
+            url="https://www.youtube.com/@rasulyusupov8599",
             ))
-    await message.answer("Выберите ссылку:", 
+    await message.answer("Выберите ссылку::", 
                          reply_markup=builder.as_markup(resize_keeboard=True))
     
 
